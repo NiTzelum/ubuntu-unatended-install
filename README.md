@@ -29,20 +29,20 @@
 **Через curl (рекомендуется):**
 
 ```bash
-sudo bash <(curl -fsSL https://raw.githubusercontent.com/NiTzelum/unattended-upgrades-setup/main/install.sh)
+sudo bash <(curl -fsSL https://raw.githubusercontent.com/NiTzelum/ubuntu-unatended-install/main/install.sh)
 ```
 
 **Скачать и запустить:**
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/NiTzelum/unattended-upgrades-setup/main/install.sh -o install.sh
+curl -fsSL https://raw.githubusercontent.com/NiTzelum/ubuntu-unatended-install/main/install.sh -o install.sh
 sudo bash install.sh
 ```
 
 **Через git clone:**
 
 ```bash
-git clone https://github.com/NiTzelum/unattended-upgrades-setup.git
+git clone https://github.com/NiTzelum/ubuntu-unatended-install.git
 cd unattended-upgrades-setup
 sudo bash install.sh
 ```
@@ -106,20 +106,20 @@ The script configures `unattended-upgrades` — Ubuntu's built-in mechanism for 
 **Via curl (recommended):**
 
 ```bash
-sudo bash <(curl -fsSL https://raw.githubusercontent.com/NiTzelum/unattended-upgrades-setup/main/install.sh)
+sudo bash <(curl -fsSL https://raw.githubusercontent.com/NiTzelum/ubuntu-unatended-install/main/install.sh)
 ```
 
 **Download and run:**
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/NiTzelum/unattended-upgrades-setup/main/install.sh -o install.sh
+curl -fsSL https://raw.githubusercontent.com/NiTzelum/ubuntu-unatended-install/main/install.sh -o install.sh
 sudo bash install.sh
 ```
 
 **Via git clone:**
 
 ```bash
-git clone https://github.com/NiTzelum/unattended-upgrades-setup.git
+git clone https://github.com/NiTzelum/ubuntu-unatended-install.git
 cd unattended-upgrades-setup
 sudo bash install.sh
 ```
