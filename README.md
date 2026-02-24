@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # unattended-upgrades-setup
 
 Интерактивный bash-скрипт для настройки автоматических обновлений безопасности на Ubuntu Server.
@@ -27,11 +26,25 @@
 
 ## Установка и запуск
 
+**Через curl (рекомендуется):**
+
 ```bash
-git clone https://github.com/your-username/unattended-upgrades-setup.git
+sudo bash <(curl -fsSL https://raw.githubusercontent.com/NiTzelum/unattended-upgrades-setup/main/install.sh)
+```
+
+**Скачать и запустить:**
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/NiTzelum/unattended-upgrades-setup/main/install.sh -o install.sh
+sudo bash install.sh
+```
+
+**Через git clone:**
+
+```bash
+git clone https://github.com/NiTzelum/unattended-upgrades-setup.git
 cd unattended-upgrades-setup
-chmod +x setup_unattended_upgrades.sh
-sudo bash setup_unattended_upgrades.sh
+sudo bash install.sh
 ```
 
 Скрипт проведёт через все параметры в интерактивном режиме с описанием каждой опции.
@@ -90,11 +103,25 @@ The script configures `unattended-upgrades` — Ubuntu's built-in mechanism for 
 
 ## Installation
 
+**Via curl (recommended):**
+
 ```bash
-git clone https://github.com/your-username/unattended-upgrades-setup.git
+sudo bash <(curl -fsSL https://raw.githubusercontent.com/NiTzelum/unattended-upgrades-setup/main/install.sh)
+```
+
+**Download and run:**
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/NiTzelum/unattended-upgrades-setup/main/install.sh -o install.sh
+sudo bash install.sh
+```
+
+**Via git clone:**
+
+```bash
+git clone https://github.com/NiTzelum/unattended-upgrades-setup.git
 cd unattended-upgrades-setup
-chmod +x setup_unattended_upgrades.sh
-sudo bash setup_unattended_upgrades.sh
+sudo bash install.sh
 ```
 
 The script walks through all parameters interactively with a description of each option.
@@ -125,7 +152,3 @@ tail -f /var/log/unattended-upgrades/unattended-upgrades.log
 ## License
 
 MIT
-=======
-# ubuntu-unatended-install
-Интерактивный bash-скрипт для настройки автоматических обновлений безопасности на Ubuntu Server.
->>>>>>> 3160904126e7068dcad9804b71d17a91d22b9526
