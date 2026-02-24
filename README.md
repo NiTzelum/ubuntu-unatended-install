@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # unattended-upgrades-setup
 
 Интерактивный bash-скрипт для настройки автоматических обновлений безопасности на Ubuntu Server.
@@ -124,3 +125,7 @@ tail -f /var/log/unattended-upgrades/unattended-upgrades.log
 ## License
 
 MIT
+=======
+# ubuntu-unatended-install
+Интерактивный bash-скрипт для настройки автоматических обновлений безопасности на Ubuntu Server.
+>>>>>>> 3160904126e7068dcad9804b71d17a91d22b9526
